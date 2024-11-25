@@ -3,7 +3,7 @@
 
 
 <% if user_signed_in? %>
-<h1>Welcome <%= current_user.first_name %> 🤝</h1>
+<h1 style="color: blue;">Welcome <%= current_user.first_name %> 🤝</h1>
 <% else %>
-<h1> Welcome, please signup</h1>
+<h1 style="color: blue;"> Welcome, please signup</h1>
 <% end %>
